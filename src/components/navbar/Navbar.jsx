@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/logo.png'
 import {GiHamburgerMenu} from 'react-icons/gi'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -10,13 +11,15 @@ const Navbar = () => {
             <img src={Logo} alt=""/>
         </div>
         <div className="navs hidden gap-10 lg:flex items-center text-white">
-            <div className='active hover:text-blue-900 hover:font-semibold hover:duration-300 ease-in-out text-[14px] hover:cursor-pointer'>Home</div>
+            <div className='active hover:text-blue-900 hover:font-semibold hover:duration-300 ease-in-out text-[14px] hover:cursor-pointer'> <Link to="/">Homeyu</Link></div>
             <div className=' hover:text-blue-900 hover:font-semibold hover:duration-300 ease-in-out text-[14px] hover:cursor-pointer'>About Us</div>
             <div className=' hover:text-blue-900 hover:font-semibold hover:duration-300 ease-in-out text-[14px] hover:cursor-pointer'>Courses</div>
             <div className=' hover:text-blue-900 hover:font-semibold hover:duration-300 ease-in-out text-[14px] hover:cursor-pointer'>FAQs</div>
             <div className=' hover:text-blue-900 hover:font-semibold hover:duration-300 ease-in-out text-[14px] hover:cursor-pointer'>Contact Us</div>
             <div className=' hover:text-blue-900 hover:font-semibold hover:duration-300 ease-in-out text-[14px] hover:cursor-pointer'>How To Enrol</div>
-            <div className=' hover:font-semibold hover:duration-300 ease-in-out text-[14px] hover:cursor-pointer py-3 px-6 bg-[#355bcc84] rounded-[10px] hover:text-[white]'>Enrol Now</div>
+            <div className=' hover:font-semibold hover:duration-300 ease-in-out text-[14px] hover:cursor-pointer py-3 px-6 bg-[#355bcc84] rounded-[10px] hover:text-[white]'>
+              <Link to="/enrolnow">Enrol Now</Link>
+            </div>
         </div>
 
         <div className='flex lg:hidden'>
