@@ -10,6 +10,21 @@
     background-blend-mode: overlay;
 }
 
+
+.enrolbg{
+    background-image: url("../assets/v796-nunny-02.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    /* transition: animation ease .5s; */
+    /* animation: change 15s ease-in-out infinite ; */
+    background-color: rgb(65, 60, 60);
+    background-blend-mode: overlay;
+}
+
+
+
 @keyframes change {
     0%{
         background-image: url('../assets/cyberpic1.jpg');
@@ -31,6 +46,27 @@
         background-image: url('../assets/cyberpic1.jpg');
         
     }
+}
+
+.news{
+    background-image: url("../assets/pattern.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-color: rgb(65, 60, 60);
+    background-blend-mode: overlay;
+}
+
+.howtoenrol{
+    background-image: url("../assets/abstract-techno-background-with-low-poly-design.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-color: rgb(65, 60, 60);
+    background-blend-mode: overlay;
 }
 
 .active{

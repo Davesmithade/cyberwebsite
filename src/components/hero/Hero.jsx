@@ -16,7 +16,7 @@ const Hero = () => {
     Are you ready to embark on a rewarding journey into the dynamic world of cybersecurity? Our comprehensive bootcamp is designed to equip you with the essential knowledge and practical skills required to thrive in this ever-evolving field.
     </div>
 
-    <div className='flex gap-5 mt-12 lg:mt-5'>
+    <div className='flex justify-center lg:justify-start gap-5 mt-12 lg:mt-5'>
       <div className=' cursor-pointer text-[14px] lg:text-lg py-3 px-6 font-semibold rounded-[5px] text-white bg-[#294db88b]'>Get Started</div>
       <div className=' cursor-pointer text-[14px] lg:text-lg py-3 px-6 border rounded-[5px] font-semibold text-[#294db88b] bg-white'>Explore our Courses</div>
     </div>
